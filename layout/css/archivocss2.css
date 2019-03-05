@@ -1,0 +1,146 @@
+*{
+	box-sizing: border-box;
+}
+.header{
+	background-color: darkred;
+	text-align: center;
+	padding: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.header h1{
+
+	color: aqua;
+	font-size: 60px;
+
+}
+
+.menu{
+	background-color: black;
+	overflow: hidden;
+}
+
+.menu a {
+	float: left;
+	display: block;
+	color: aqua;
+	text-align: center;
+	padding: 16px;
+}
+
+.menu a:hover {
+
+	color: black;
+	background-color: white;
+}
+
+.izquierda{
+	float: left;
+	width: 60%;
+}
+
+.item{
+	background-color: 	#000000;
+	width: 95%;
+	padding:10px;
+	color: yellow;
+}
+
+.imagen{
+	width: 650px;
+	
+}
+
+body{
+	background-color:blue;
+}
+
+.derecha{
+	float: left;
+	width: 28%;
+	background-color:red;
+	padding: 10px;
+}
+
+.contenido:after {
+	content: "";
+	display: table;
+	clear: both;
+
+
+}
+
+.footer{
+	padding: 20px;
+	color: aqua;
+	text-align: center;
+	background-color: black;
+	margin-top: 20px;
+}
+p{
+	color:white;
+}
+
+.imagen2{
+	width:220px; 
+	
+}
+
+.imagen3{
+	width:650px; 
+	
+}
+
+.imagen4{
+	width:220px; 
+	
+}
+.izquierda2{
+	float: left;
+	width: 60%;
+}
+
+.item2{
+	background-color: darkgrey;
+	width: 95%;
+	padding:10px;
+	color: darkblue;
+
+}
+.derecha2{
+	float: left;
+	width: 28%;
+	background-color:black;
+	padding: 10px;
+}
+
+.imagen5{
+	width:650px; 
+	
+}
+
+.imagen6{
+	width:220px; 
+	
+}
+.izquierda3{
+	float: left;
+	width: 60%;
+}
+
+.item3{
+	background-color:darkblue ;
+	width: 95%;
+	padding:10px;
+	color: white;
+}
+.derecha3{
+	float: left;
+	width: 28%;
+	background-color:darkgrey;
+	padding: 10px;
+}
+
+p{
+	color: white;
+}
